@@ -12,6 +12,12 @@ public class Siswa {
         ipk = 0.0;
     } 
 
+    public Siswa(int i, String n, double d) {
+        id = i;
+        nama = n;
+        ipk = d;
+    }
+
     //Getter
     //Setter
     //Method
