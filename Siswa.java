@@ -5,11 +5,36 @@ public class Siswa {
     String nama;
     double ipk;
 
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNama() {
+        return this.nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public double getIpk() {
+        return this.ipk;
+    }
+
+    public void setIpk(double ipk) {
+        this.ipk = ipk;
+    }
+
     //Constructor (yg membangun object)
     public Siswa() {
         id = 0;
         nama = "Kosong";
         ipk = 0.0;
+
     } 
 
     public Siswa(int i, String n, double d) {
@@ -18,8 +43,7 @@ public class Siswa {
         ipk = d;
     }
 
-    //Getter
-    //Setter
+    
     //Method
     public void print() {
         System.out.println("ID : " + id);
