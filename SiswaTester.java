@@ -1,38 +1,39 @@
-import java.util.Scanner;
-
-//Driver Class
+// import java.util.Scanner;
+// //Driver Class
 public class SiswaTester {
     public static void main(String[] args) {
-        //String-->int--->double
-        Scanner input = new Scanner(System.in);
-        System.out.println("Nama :");
-        String nama = input.nextLine();
-        System.out.println("ID :");
-        int id = input.nextInt();
-        System.out.println("IPK : ");
-        double ipk = input.nextDouble();
-        input.close();
 
-        Siswa dimas = new Siswa(id, nama, ipk);
-        dimas.print();
-        //membuat Object
-        //namaClass namaObject = new Constructor();
-        Siswa amin = new Siswa();
-        Siswa rehan = new Siswa();
-        Siswa fadli = new Siswa();
-        Siswa anggito = new Siswa();
-        Siswa surya = new Siswa();
+    Siswa arkhan = new Siswa( 1,  "Arkhan", 88);
+    Siswa davin = new Siswa( 2,  "Davin", 90);
 
-        amin.setNama("amin");
+    if (arkhan.getIpk() > davin.getIpk()) {
+        System.out.println("ipk arkhan lebih tinggi");
+    } else {
+        System.out.println("ipk davin lebih tinggi");
+    }
 
-        amin.print();
-        rehan.print();
-        fadli.print();
-        anggito.print();
-        surya.print();
 
-        
 
-        
+
+
+// //         Siswa arkhan = new Siswa( 1,  "Arkhan", 88);
+// //         Siswa davin = new Siswa( 2,  "Davin", 90);
+// //         arkhan.print();
+// //         davin.print();
+// //         //Nilai diatas 70 lulus
+// //         if(arkhan.getIpk() >= 70){
+// //             System.out.println("Lulus");
+// //         }else{
+// //             System.out.println("Tidak Lulus");
+// //         }
+
+// //         //Operator AND
+// //         if(arkhan.getIpk() >= 70 && arkhan.getNama().equals("Arkhan")){
+// //             System.out.println("Benar");
+// //         }else{
+// //             System.out.println("Salah");
+//         }
     }
 }
+
+

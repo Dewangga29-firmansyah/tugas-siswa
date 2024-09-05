@@ -1,9 +1,33 @@
 //Object Class
 public class Siswa {
     //variabel
-    int id;
-    String nama;
-    double ipk;
+    private int id;
+    private String nama;
+    private double ipk;
+
+    public int getID() {
+        return this.id;
+    }
+
+    public void setid(int id) {
+        this.id = id;
+    }
+
+    public String getnama() {
+        return this.nama;
+    }
+
+    public void setnama(String nama) {
+        this.nama = nama;
+    }
+
+    public double getipk() {
+        return this.ipk;
+    }
+
+    public void setipk(double ipk) {
+        this.ipk = ipk;
+    }
 
     public int getId() {
         return this.id;
