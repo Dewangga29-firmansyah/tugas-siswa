@@ -14,6 +14,7 @@ public class deretAritmatikaFor {
         beda = input.nextInt();
         System.out.println("Deret Aritmatika: ");
         for (int i = batasAwal; i<= batasAkhir; i= beda) {
+            
             System.out.println(i + " ");
             i += beda;
         }

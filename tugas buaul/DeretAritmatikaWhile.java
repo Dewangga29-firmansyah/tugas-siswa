@@ -6,16 +6,16 @@ public class DeretAritmatikaWhile {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Masukkan batas bawah: ");
+        System.out.print("Masukkan batas bawah: ");
         batasAwal = input.nextInt();
-        System.out.println("Masukkan batas atas: ");
+        System.out.print("Masukkan batas atas: ");
         batasAkhir = input.nextInt();
-        System.out.println("Masukkan beda: ");
+        System.out.print("Masukkan beda: ");
         beda = input.nextInt();
-        System.out.println("Deret Aritmatika: ");
+        System.out.print("Deret Aritmatika: ");
         int i = batasAwal;
         while (i <= batasAkhir) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
             i += beda;
         }
         input.close();

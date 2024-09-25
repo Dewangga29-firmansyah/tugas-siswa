@@ -12,6 +12,13 @@ public class Product {
         quantity = 0;
         price = 0.0;
     }
+    public Product(int number, String name, int quantity, double price) {
+        //varialbel = parameter method
+        this.number = number;
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+    }
 
     public int getNumber() {
         return this.number;
