@@ -1,0 +1,199 @@
+body {
+    font-family: poppins;
+}
+
+.title {
+    background-color: #ffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Pembuatan {
+    font-weight: 900;
+}
+
+.form {
+    background-color: #e0d9cf;
+    
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.one {
+    font-size: 15px;
+    text-align: left;
+}
+
+.two {
+    font-size: 14px;
+    text-align: center;
+}
+.nama {
+    margin-left:99.8px;
+    border-radius: 10px;
+    width: 900px;
+    margin-top: 20px;
+    height: 27px;
+}
+.email {
+    margin-left: 150.7px;
+    border-radius: 10px;
+    width: 900px;
+    height: 27px;
+}
+
+.emaill {
+    margin-top: 20px;
+}
+.name {
+    margin-top: 20px;
+}
+
+.tanggal {
+    border-radius: 10px;
+    margin-left: 106.9px;
+    width: 900px;
+    height: 27px;
+}
+
+.ttg {
+    margin-top: 20px;
+}
+
+.date{
+    margin-left: 210px;
+    font-size: 11px;
+}
+.WA {
+    width: 900px;
+    margin-left: 92.5px;
+    height: 27px;
+    border-radius: 10px;
+}
+
+.nomor {
+    margin-left: 210px;
+    font-size: 11px;
+}
+
+.lapak {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 80.5px;
+}
+
+.store {
+    margin-left: 210px;
+    font-size: 11px;
+}
+
+.tagline {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 94.5px;
+}
+
+.slog {
+    margin-left: 210px;
+    font-size: 11px;
+}
+
+.desk {
+    margin-left: 197px;
+    width: 300px;
+    border-radius: 10px;
+    height: 75px;
+}
+
+.alama {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 114.5px;
+}
+
+.jalan {
+    margin-left: 210px;
+    font-size: 11px;
+}
+
+.textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+.textarea {
+    height: 100px;
+}
+
+.kelurahan {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 196.5px;
+}
+
+.kota {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 196.5px;
+}
+
+.provinsi {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 196.5px;
+}
+
+.pos {
+    width: 900px;
+    height: 27px;
+    border-radius: 10px;
+    margin-left: 196.5px;
+}
+
+.bukalapak {
+    margin-left: 130px;
+}
+
+
+.form-control {
+    width: 900px !important; height: 42px !important; border-radius: 10px !important;
+}
+
+.shop {
+    border-radius: 15px;
+}
+
+.Hubungi {
+    margin-left: 47px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.tombol{
+    color: white;
+    background-color: #000;
+    margin-top: 27px;
+    margin-left: 47px;
+}
+.footer {
+    background-color: #d8d4c4;
+}
+
+.telkoom {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: auto;
+}

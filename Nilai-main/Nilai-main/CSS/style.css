@@ -1,0 +1,13 @@
+td {
+    border-width: 3px ! important;
+    padding: 10px 30px;
+}
+
+th {
+    border-width: 3px ! important;
+    padding: 10px 15px;
+}
+
+.judul {
+    margin-top: 80px;
+}

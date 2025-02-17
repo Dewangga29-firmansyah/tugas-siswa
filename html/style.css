@@ -1,0 +1,17 @@
+
+div{
+    width: 100%;
+    margin-top: 0 auto;
+    height: 100px;
+    text-align: center
+}
+.bgcolor{ background-color: #db4191}
+.bgimage{ background-image: url(assets/images/wp9247076-plant-4k-wallpapers.jpg);}
+.bgposition{
+    height: 350px;
+    background: url("assets/images/download.png " ) #ff888c no-repeat left ;
+}
+.gradient1{
+    background:linear-gradient (to right, red, yellow, green);}
+.gradient2{
+    background:linear-gradient (red, yellow, green);}

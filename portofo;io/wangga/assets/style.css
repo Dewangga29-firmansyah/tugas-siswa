@@ -1,0 +1,79 @@
+body {
+    background-color:#faf0ca;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    color: black !important;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 200px;
+}
+
+.hero-section {
+    margin-top: 150px;
+}
+
+.header-text {
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.header-span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.p-header {
+    color: #9C9c9c !important;
+    font-family: 'IBM Plex Mono', monospace !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button-1 {
+    margin-top: 30px;
+    width: 310px;
+    height: 65px;
+    padding: 21px 10px;
+    background-color: #3f8e00;
+    text-align: center;
+    stroke: #62ba1b;
+    stroke-width: 100%;
+    stroke-opacity: 100%;
+    box-shadow: 0px 4px 4px rgba(63, 142, 0, 0.5);
+    border-radius: 4px;
+}
+
+.footer-hr {
+    width: 100%;
+    text-align: center;
+    border: solid gray 2px;
+}
+
+.footer-bottom-text {
+    font-size: 16px;
+    font-weight: 400;
+    }
+    
+    .footer-p {
+    font-size: 16px;
+    margin-top: -2px;
+    color: var(--gray);
+    font-weight: 400;
+    }
+    
+    .text-bottom {
+    margin-top: -6px;
+    }
+    
+    .copyright {
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: 400;
+    }

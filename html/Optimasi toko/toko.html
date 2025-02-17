@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimasi Toko</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- JUDUL -->
+    <section class="form">
+        <div class="title">
+            <h2 class="Pembuatan">Form Pembuatan & Optimasi Toko</h2>
+            <h4>Marketplace(Tokopedia,Bukalapak,Shopee,Lazada dll)</h4>
+        </div>
+    </section>
+    <!-- JUDUL END -->
+    
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="form">
+            <form action="" class="p-5" method="post">
+                <div class="name">
+                <h4 class="d-inline one">Nama Lengkap</h4>
+                <input  class="d-inline nama form-control " type="text" name="name" id="Nama Lengkap" placeholder="Masukan Nama Anda"  >
+                </div>
+                <div class="emaill">
+                <h4 class="d-inline one">E-mail</h4>
+                <input class="d-inline email form-control" type="text" name="email" id="E-mail" placeholder="Ex. myname@example.com ">
+                </div>
+                <div class="ttg">
+                    <h4 class="d-inline one">Tanggal Lahir</h4>
+                    <input  class="d-inline tanggal form-control" type="date" name="tanggal" value="" placeholder="Masukan tanggal lahir anda">
+                    <p class="date">Date</p>
+                </div>
+                <div class="no-telp">
+                    <h4 class="d-inline one">Nomor Telp/WA</h4>
+                    <input  class="d-inline WA form-control" type="number" name="angka" id="angka" placeholder="085-1445-3292/0812-83">
+                    <p class="nomor">Nomor Telp/WA</p>
+                </div>
+                <div class="Toko">
+                    <h4 class="d-inline one">Nama Toko/Lapak</h4>
+                    <input  class="d-inline lapak form-control" type="text" name="Toko" id="Toko" placeholder="Masukan Nama Toko/lapak ">
+                    <p class="store">Toko XYZ, XY Store dll</p>
+                </div>
+                <div class="Slogan">
+                    <h4 class="d-inline one">Tagline / Slogan</h4>
+                    <input  class="d-inline tagline form-control" type="text" name="Slogan" id="Slogan" placeholder="Masukan Slogan Toko Anda">
+                    <p class="slog">Misalkan : Pelayanan Terbaik, Pengiriman Cepat</p>
+                </div>
+                <div class="deskripsi  mb-3">
+                    <div class="row">
+                        <div class="col-md-1 mt-3">
+                            <h6 class="one">Deskripsi Toko  (Tentang  Keunggulan/ Produk apa saja  yang dijual)</h6>
+                    
+                        </div>
+                        <div class="col-md-11" style="margin-left: -120px; margin-top: 10px;">
+                            <textarea  class="desk form-control" name="deskripsi" id="deskripsi"  placeholder="Masukan Deskripsi Toko Anda" style="width: 900px; height: 110px !important;"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="alamat">
+                    <h4 class="d-inline one">Alamat Toko</h4>
+                    <input  class="d-inline alama form-control" type="text" name="alamat" id="alamat" placeholder="Masukan Alamat Toko Anda">
+                    <p class="jalan">Alamat Jalan</p>
+                    <input  class=" kelurahan form-control" type="text" name="lurahan" id="kelurahan" placeholder="Masukan Kelurahan">
+                    <p class="jalan">Kelurahan, Kecamatan, Kodepos</p>
+                    <input  class=" kota form-control" type="text" name="kota" id="kota" placeholder="Masukan Kota">
+                    <p class="jalan">kota</p>
+                    <input  class=" provinsi form-control" type="text" name="provinsi" id="provinsi" placeholder="Masukan provinsi">
+                    <p class="jalan">provinsi</p>
+                    <input  class=" pos form-control" type="text" name="pos" id="pos" placeholder="Masukan kode pos">
+                    <p class="jalan">kode pos</p>
+                </div>
+                <div class="checkbox-group form-group">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label for="">Membuka Toko di Marketplace :</label>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="flex flex-col" style="margin-left: -30px;">
+                                <input type="checkbox" id="tokopedia" name="marketplace" value="tokopedia">
+                                <label for="tokopedia">Tokopedia</label><br>
+                                <input  type="checkbox" id="bukalapak" name="marketplace" value="bukalapak">
+                                <label  for="bukalapak">Bukalapak</label><br>
+                                <input type="checkbox" id="shopee" name="marketplace" value="shopee">
+                                <label for="shopee">Shopee</label><br>
+                                <input type="checkbox" id="blibli" name="marketplace" value="blibli">
+                                <label for="blibli">Blibli</label><br>
+                                <input type="checkbox" id="lazada" name="marketplace" value="lazada">
+                                <label for="lazada">Lazada</label><br>
+                                <input type="checkbox" id="lainnya" name="marketplace" value="lainnya" placeholder="l">
+                                <input type="text" id="lainnya" style="width: 100px; text-align: center; border-radius: 10px; background-color: transparent; color: black;" name="marketplace" placeholder="Lainnya"> <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox-group form-group">
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-2">
+                            <label for="">Apakah anda ingin menjual <br> produk sendiri/dropship</label>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="flex flex-col" style="margin-left: -30px;">
+                                <input type="checkbox" id="Produk sendiri" name="produk" value="Produk sendiri">
+                                <label for="Produk sendiri">Produk Sendiri</label><br>
+                                <input type="checkbox" id="Produk Dropship" name="produk" value="Produk Dropship">
+                                <label for="Produk Dropship">Produk Dropship</label><br>
+                                <input type="checkbox" id="Produk kedua" name="produk" value="Produk kedua">
+                                <label for="Produk kedua">Kedua-duanya</label><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toko-group form-group">
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-2">
+                            <label for="">Nama Toko/Lapak <br>Yang Ingin <br>dioptimasi (jika sudah ada)</label>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="flex flex-col" style="margin-left: -30px;">
+                                <input class="form-control " style="margin-left: -10px;" type="text" id="Toko-group" name="shop" placeholder="masukkan nama toko yang sudah diotimasi">
+                                <p class="" style="margin-left: 1px; font-size: 11px;">Tokopedia,Shopee,Tokopedia,Dll</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox-group form-group">
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-2">
+                            <label for="">Paket Optimasi <br> Yang Anda Inginkan</label>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="flex flex-col" style="margin-left: -30px;">
+                                <input type="checkbox" id="Paket Biz" name="paket" value="Paket Biz">
+                                <label for="Paket Biz">Paket Biz</label><br>
+                                <input type="checkbox" id="Paket UMKM" name="paket" value="Paket UMKM">
+                                <label for="Paket UMKM">Paket UMKM</label><br>
+                                <input type="checkbox" id="Paket Pro" name="paket" value="Paket Pro">
+                                <label for="Paket Pro">Paket Pro</label><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="Hubungi">Untuk Konfirmasi Bisa Hubungi Nomor Whatsapp :0821-1234-1234</h1>
+                    <div class="button">
+                        <a href="dashboaard.html" class="btn btn-light tombol">
+                        Submit/Daftar
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <P style="font-size: 14px; margin-top: 30px; text-align: center;">Copyright 2029 | @dewangga_frmansyh</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER END -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

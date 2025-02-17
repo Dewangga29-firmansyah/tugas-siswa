@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+
+div.comtainer {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #c7d5c2f9;
+}
+
+nav {
+    width: 20%;
+    height: 800px;
+    background-color: #c5dada;
+    float: left;
+}
+
+div.content {
+    width: 80%;
+    height: 800px;
+    background-color: #f2f2f2;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #016060;
+    margin-top: 135px;
+}
+
+.ig{
+    margin-left: 1200px;
+}
+
+.biodata {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: poppins;
+    font-size:20px ;
+
+}

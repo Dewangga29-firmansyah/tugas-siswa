@@ -1,0 +1,22 @@
+
+    .maroon { color: #820004; }
+    .navy { color: #000080; }
+    .indigo { color: #4b0082; }
+    
+    .spacing { letter-spacing: 2px; word-spacing: 5px; line-height: 20px;
+    /* silahkan berkerasi dengan marubah value dari setiap properti */
+}
+    .uppercase { text-transform: uppercase; }
+    .lowercase { text-transform: lowercase; }
+    .capitalize { text-transform: capitalize; }
+    .paragraf{
+        font-family: "Courier New", Courier, monospace;
+        font-size: 20px;
+    }
+    ul{
+        list-style-type: circle;
+    }
+    li{
+        font-family: "Tahoma";
+        font-size: 15px;
+    }
